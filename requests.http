@@ -1,0 +1,2 @@
+GET http://localhost:8000/posts
+Authorization: Token 38ae47e4ed3130cacd59791df5373245b2d64d50
