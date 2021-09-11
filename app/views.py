@@ -11,11 +11,11 @@ class PostViewSet(ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
-    # # теперь просматриватьи создавать посты могут только пользоваатели,
+    # # 1 теперь просматриватьи создавать посты могут только пользоваатели,
     # # прошедшие аутентификацию (у кого есть токен)
     # permission_classes = [IsAuthenticated]
 
-    # откроем доступ на чтение всем пользователям,
+    # 2 откроем доступ на чтение всем пользователям,
     # а на изменение только прошедшим аутентификацию
     permission_classes = [IsAuthOrReadOnly]
 
