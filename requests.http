@@ -1,2 +1,10 @@
 GET http://localhost:8000/posts
 Authorization: Token 38ae47e4ed3130cacd59791df5373245b2d64d50
+
+'''
+user: admin
+token: 38ae47e4ed3130cacd59791df5373245b2d64d50
+
+user: admin2
+token: 2cae37df6e4b07aebe9e640b82a874d05c1e7294
+'''
